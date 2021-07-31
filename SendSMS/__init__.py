@@ -4,8 +4,8 @@ import azure.functions as func
 
 from smsAlert import smsAlertMsg
 
-username = 'madhurdk2001@gmail.com'  # add your SMS Alert username
-password = '123456'  # add your SMS Alert password
+username = 'YOUR_USERNAME_HERE'  # add your SMS Alert username
+password = 'YOUR_PASSWORD_HERE'  # add your SMS Alert password
 
 client = smsAlertMsg(username=username, password=password)
 
